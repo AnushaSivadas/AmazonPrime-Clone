@@ -1,0 +1,278 @@
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+@font-face {font-family: "Amazon Ember"; src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot"); src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff") format("woff"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.svg#Amazon Ember") format("svg"); } 
+
+ 
+
+body{
+    margin:0;
+    padding-top: 80px;
+    text-decoration: none;
+
+    
+}
+
+ 
+ .btn2, .btn3,.btn4 {
+    color: #f2f4f6f6;
+    background-color: #0F79AF;
+    line-height: 14px;
+    font-family: system-ui;
+    padding: 14px 20px;
+    width: 81px;
+    margin-top: -33px;
+    margin-left: 198px;
+    -webkit-font-smoothing: antialiased;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+ .btn2:hover, .btn3:hover,.btn4:hover{
+    background-color: #1999d9;
+}
+.btn2{
+
+    margin-top: -6px;
+    margin-left: 0px;
+    width: 280px;
+    /* text-align: center; */
+    font-weight: 400;
+   
+    
+    word-spacing: normal;
+    text-transform: none;
+  
+    text-shadow: none;
+    font-size: 18px;
+    line-height: 20px;
+}
+.btn3{
+    margin-left: -2px;
+    margin-top: 10px;
+    width: 278px;
+    line-height: 27px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.btn4{
+    width: 274px;
+    margin-left: 0px;
+    line-height: 23px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.debit{
+    
+    font-size: 0.9rem;
+    margin-left: 41px;
+    margin-top: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}  
+
+ 
+.body1{
+    background-image: linear-gradient( to right, #000 40%, transparent 58% ),url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: right top;
+    background-size: 100%;
+    width: 100%;
+    float: left;
+    /* margin-top: 80px; */
+    height: 525px;
+}
+.body2{
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size: 100%;
+    height: 485px;
+    width: 100%;
+    float: left;
+}
+ .body3{
+    float: left;
+    width: 100%;
+    height: 508px;
+    
+} 
+
+.left-section, .left-section2{
+    color:#f2f4f6f6;
+    width: 50%;
+    float: left;
+    margin-left: 77px;
+    margin-top: 54px;
+    height: 380px;
+    
+}
+.left-section2{
+    margin-top:93px;
+}
+
+.welcome, .rent{
+    color: #fff;
+    font-size: 46.8px;
+    /* margin-left: 74px;
+    margin-top: 57px; */
+    font-weight: 300;
+    font-family: system-ui;
+    
+}
+.body1-content, .body2-content{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #fff;
+    font-family: system-ui;
+    margin-top: -25px;
+}
+ .rent{
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-align: left;
+    
+    line-height: 1.2!important;
+    
+    
+} 
+.body2-content{
+    font-size: 21px;
+    line-height: 1.3;
+    font-weight: 100;
+}
+.inner1{
+/* background-color: green; */
+padding: 10px 5%;
+display: flex;
+}
+.inner-left{
+/* background-color: aqua; */
+
+
+
+    width: 50%;
+    float: left;
+
+}
+.inner-left-top{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 3.1rem;
+    color: black;
+    padding: 0 15% 0 0;
+    margin-top: 24px;
+}
+.inner-left-bottom{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin-top: 24px;
+    color:#000;
+    font-family: system-ui;
+    font-weight: 100
+}
+.inner-right{
+    /* background-color: orange; */
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: start;
+}
+.imgage{
+    cursor: pointer;
+    width: 222px;
+    height: 153px;
+}
+
+.inner-right1:hover{
+    box-shadow:0px 0px 15px rgba(0,0,0,1)
+}
+.fav{
+    font-size: 46px;
+    font-weight: 200;
+}
+.body4{
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+    background-position: left top;
+    width: 100%;
+    height: 540px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: both;
+    color: #fff;
+
+}
+.body4-right{
+    
+    height:310px;
+    padding-right: 0;
+    padding-left: 54%;
+    line-height: 3.3;
+}
+.fire-title{
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 42px;
+    text-align: left;
+    color: #fff;
+    padding-top: 33px;
+    
+}
+.body4-content{
+    line-height: normal;
+    margin-top: -47px;
+    font-family: system-ui;
+    font-size: 21px;
+    font-weight: 100;
+}
+.body5{
+    width: 100%;
+    height: 464px;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg);
+    background-position: right top;
+
+}
+#footer{
+    width: 100%;
+    height: 125px;
+    background-color: #212323;
+}
+.end-content{
+    font-family: system-ui;
+    padding: 24px;
+    text-align: center;
+}
+.end-logo{
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.footer-text{
+    display: inline-block;
+    margin: 4px 0 14px;
+    font-size: 15px;
+    line-height: 19px;
+    
+}
+.footer-link{
+    color: #0f79af;
+    cursor: pointer;
+    text-decoration: none;
+}
+#footer a{
+    color: #0f79af;
+}
+#footer p{
+    display: inline-block;
+    margin-top: 8px;
+    font-family: system-ui;
+}
+#footer span{
+
+    padding: 0 4px;
+    margin: 0;
+}
+.footer-copyright{
+    color: #8197a4;
+}

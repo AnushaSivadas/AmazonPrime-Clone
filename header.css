@@ -1,0 +1,122 @@
+@import url(//db.onlinewebfonts.com/c/978fce27d0f89bb8e8ff779bd55d4944?family=Amazon+Ember+Light);
+@font-face {font-family: "Amazon Ember Light"; src: url("//db.onlinewebfonts.com/t/978fce27d0f89bb8e8ff779bd55d4944.eot"); src: url("//db.onlinewebfonts.com/t/978fce27d0f89bb8e8ff779bd55d4944.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/978fce27d0f89bb8e8ff779bd55d4944.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/978fce27d0f89bb8e8ff779bd55d4944.woff") format("woff"), url("//db.onlinewebfonts.com/t/978fce27d0f89bb8e8ff779bd55d4944.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/978fce27d0f89bb8e8ff779bd55d4944.svg#Amazon Ember Light") format("svg"); }
+
+
+.header{
+    height: 80px;
+    display: flex;
+background-color: #1b2530;
+position:fixed;
+top: 0;
+right: 0;
+left: 0;
+
+}
+.left-head{
+    
+    width:170px;
+    display: flex;
+    align-items: center;
+}
+.middle-head{
+    /* background-color: pink; */
+    flex: 1;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    padding-bottom: 5px;
+    /* padding-left: 10px; */
+}
+.right-head{
+   
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 82px;
+    margin-left: 100px;
+}
+.head-primelogo{
+    height: 35px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.head-menu{
+    margin-left: 18px;
+    opacity: .8;
+    font-weight: lighter;
+    cursor: pointer;
+    font-family: "Amazon ember light";
+}
+.head-menu:hover{
+    opacity: 1;
+}
+#opa{
+    opacity: .9;
+    font-weight: 600;
+    margin-right: 16px;
+
+}
+.categories{
+    position: relative;
+    
+}
+.arr1 , .arr2 {
+    border-left: 4.3px solid transparent;
+    border-right: 4.3px solid transparent;
+    border-top: 4.3px solid #8197a4;
+    content: "";
+     /* display: block; */
+    position: absolute;
+    top: 10px;
+    right:0;
+    width: 0; 
+}
+.arr2{
+    
+    right: -13px;
+}
+
+.btn{
+    color: #f2f4f6f6;
+    background-color: rgb(15, 121, 175);
+    line-height: 15px;
+    font-family: "Amazon Ember Light";
+    font-size: 17px;
+    padding:11px 19.5px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #1999d9;
+}
+.en{
+    color: white;
+    opacity: .8;
+    margin-left: -25px;
+    font-size: 17px;
+}
+.head-search{
+    margin-left:-2px;
+    /* color: white; */
+    opacity: .8;
+}
+.head-world{
+    margin-left: -10px;
+    opacity: .8;
+    
+}
+.head-sign{
+    opacity: .7;
+    margin-left: -2px;
+}
+.head-search:hover ,
+.head-sign:hover,
+.head-world:hover,
+.en:hover{
+    opacity: 1;
+    cursor: pointer;
+}
